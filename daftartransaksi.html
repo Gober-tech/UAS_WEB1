@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KoperasiKuh</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="logo.jpg">
+  <style>
+    header {
+      background-color: white;
+      padding: 15px;
+      color: #0d6efd;
+    }
+
+    header h1, header nav a {
+      color: #0d6efd;
+    }
+
+    footer {
+      background-color: white;
+      color: #0d6efd;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    .container {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header class="d-flex justify-content-between align-items-center">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">KoperasiKuh</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">BerandaKuh</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="transaksi.html">TransaksiKuh</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Profil.html">TentangKuh</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  AkunKuh
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="akun.html">AkunKuh</a></li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li><a class="dropdown-item" href="register.html">Register</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <h2 class="text-center mb-4">Daftar Transaksi</h2>
+      <table class="table table-striped table-bordered">
+        <thead class="table-primary">
+          <tr>
+            <th>No</th>
+            <th>Nama Transaksi</th>
+            <th>Tanggal</th>
+            <th>Jumlah</th>
+            <th>Kategori</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Simpanan Bulanan</td>
+            <td>2025-01-01</td>
+            <td>Rp 500,000</td>
+            <td>Simpan</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Pinjaman Kecil</td>
+            <td>2025-01-02</td>
+            <td>Rp 1,000,000</td>
+            <td>Pinjam</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Simpanan Tambahan</td>
+            <td>2025-01-03</td>
+            <td>Rp 200,000</td>
+            <td>Simpan</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="text-center mt-3">
+        <a href="transaksi.html" class="btn btn-primary">Tambah Transaksi</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; KoperasiKuh All rights reserved.</p>
+</footer>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
